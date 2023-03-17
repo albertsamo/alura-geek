@@ -15,23 +15,28 @@
 .agregar-producto form{
     display: flex;
     flex-direction: column;
-    width: 42.3rem;    
+    width: 55.9rem;    
 }
 
 .agregar-producto__input{
     color: var(--colorGrisClaro);
-    font-size: 1.6rem;
-    font-weight: 400;
-    padding-top: 1.81rem;
-    padding-bottom: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;    
+    padding-top: .81rem;
+    padding-bottom: 3.2rem;
     padding-left: 1.20rem;
     padding-right: 1.20rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+.agregar-producto textarea{
+    margin-bottom: 1.5rem;
     border: none;
 }
 
 .agregar-producto button{
-    width:42.3rem;   
+    width: 55.9rem;   
 }
 
 .agregar-producto a:hover{    

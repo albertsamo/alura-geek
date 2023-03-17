@@ -57,8 +57,14 @@ a:visited{
     color: var(--colorAzul);
 }
 
+input:focus{
+    outline: none;
+    
+}
 
-
+textarea:focus{
+    outline: none;
+}
 }
 
 
