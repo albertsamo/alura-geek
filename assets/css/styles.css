@@ -57,15 +57,24 @@ a:visited{
     color: var(--colorAzul);
 }
 
+input{
+    font-family: 'Raleway', sans-serif;
+}
 input:focus{
     outline: none;
+    
+}
+
+
+textarea{
+    font-family: 'Raleway', sans-serif;
     
 }
 
 textarea:focus{
     outline: none;
 }
-}
+
 
 
 
