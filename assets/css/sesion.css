@@ -18,7 +18,7 @@
     width: 42.3rem;    
 }
 
-.sesion input{
+.sesion__input{
     color: var(--colorGrisClaro);
     font-size: 1.6rem;
     font-weight: 400;
@@ -38,8 +38,22 @@
     transform: none;
 }
 
-@media (max-width: 768){
+
+@media (max-width: 768px){
+
     .sesion button{
         width: 10.9rem;   
     }
+}
+
+@media (max-width: 375px){
+    .sesion form{        
+        width: 27.5rem; 
+        padding: 0 auto;   
+    }
+
+    .sesion__input{
+        width: 27.5rem;
+    }
+    
 }
