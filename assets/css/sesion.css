@@ -31,10 +31,15 @@
 }
 
 .sesion button{
-    width:42.3rem;
-    transform: none;
+    width:42.3rem;   
 }
 
 .sesion a:hover{    
     transform: none;
+}
+
+@media (max-width: 768){
+    .sesion button{
+        width: 10.9rem;   
+    }
 }

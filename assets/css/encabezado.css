@@ -17,6 +17,10 @@
     width: auto;
 }
 
+.encabezado--serch{
+    display: none;
+}
+
 .encabezado__buscador{
     display: flex;
     background-color:#F5F5F5;
@@ -79,9 +83,7 @@
         justify-content: space-between;
     }
 
-    .encabezado--serch{
-        display: none;
-    }
+    
 }
 
 @media (max-width: 375px){
