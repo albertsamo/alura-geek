@@ -186,4 +186,8 @@
     .formulario{
         justify-content: center;
     }
+
+    .footer__menu button{
+        width: 50%;
+    }
 }
