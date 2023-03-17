@@ -24,8 +24,7 @@
 }
 
 .footer__menu img{    
-    width: 17.6rem;
-    padding: 0 5rem;
+    width: 17.6rem;    
 }
 
 .footer__menu li{    
@@ -108,7 +107,7 @@
     text-align: center;
     font-size: 1.6rem;
     font-weight: 500;
-    padding: 3.2rem 60.5rem;
+    padding: 2rem
 }
 
 @media (max-width: 768px){
