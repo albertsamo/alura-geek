@@ -49,7 +49,12 @@
 
 
 .encabezado button{
-    width: 182px;    
+    width: 182px;
+    height: auto;   
+}
+
+.encabezado--serch{
+    display: none;
 }
 
 @media (max-width: 768px){
@@ -73,4 +78,30 @@
         align-items: center;
         justify-content: space-between;
     }
+
+    .encabezado--serch{
+        display: none;
+    }
+}
+
+@media (max-width: 375px){
+    .encabezado__logo img{
+        height: auto;
+        width: 10rem;
+    }
+    .encabezado__buscador{
+        display: none;
+    }
+
+    .encabezado button{
+        width: 133px;
+        height: auto;   
+    }
+
+    .encabezado--serch{
+        display:flex;
+        font-size:  1.7rem;
+    }
+    
+
 }

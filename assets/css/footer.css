@@ -145,3 +145,14 @@
     }
     
 }
+
+@media (max-width: 375px){
+    .footer__menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__menu form{
+        width: 100%;
+    }
+}
