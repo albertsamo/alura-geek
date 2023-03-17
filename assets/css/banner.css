@@ -57,9 +57,10 @@
 
     .banner button{
         width: 11.8rem;
-        height: 4rem;
+        height: auto;
         margin-bottom: 1.5rem;
         font-size: 1.2rem;
+        
     }
 
 }

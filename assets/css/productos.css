@@ -91,30 +91,30 @@
 }
 
 @media (max-width: 375px){
-    .productos{
-        width: 92%;
+    .productos{        
+        width: 97%;
         
     }
-
     .productos__titulo{  
         display: flex;          
         padding-top: 2rem; 
         align-items: center;  
+        
+        
     }
-
     .productos__titulo h2{
         font-size: 2.2rem;       
     }
     
     .productos__titulo h5{
         font-size: 1.4rem;
+        margin-right: 2rem;
     }
     
     .productos__contenedor{
-        display: flex;
-        justify-content: center;
-        gap: 1rem;   
-        margin: 0 auto;
+        display: flex;        
+        gap: .5rem;   
+        margin: 0 1rem;
         flex-wrap: wrap;
     }
 
