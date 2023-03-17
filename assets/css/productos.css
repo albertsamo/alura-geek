@@ -1,0 +1,91 @@
+/*Productos*/
+.productos{
+    width: 80%;
+    margin: 0 auto;
+}
+.productos__titulo{
+    display: flex;    
+    padding-top: 4rem; 
+    justify-content: space-between;   
+}
+
+.productos__titulo h2{
+    font-size: 3.2rem;
+    font-weight: 700;
+    
+}
+
+.productos__titulo h5{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.productos__titulo i{
+    margin-left: 1rem;
+}
+
+.productos__contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;   
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}
+
+.productos__tarjeta{
+    display: flex;
+    flex-direction: column;
+    width: 17.6rem;
+    margin-top: 2rem; 
+    
+}
+
+.productos__nombre{
+    color: var(--colorGris);
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.productos__precio{
+    color: var(--colorGris);
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.productos__link{
+    color: var(--colorAzul);
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 768px){
+    .productos{
+        width: 98%;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
+    .productos__contenedor{
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;   
+        margin: 0 2rem;
+        flex-wrap: wrap;        
+    }
+
+    .productos__tarjeta{
+        display: flex;
+        flex-direction: column;
+        width: 16.4rem;
+        margin-top: 2rem;         
+    }
+
+    .productos__titulo{
+        width: 98%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

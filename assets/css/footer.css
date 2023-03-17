@@ -1,0 +1,147 @@
+/*rodapie*/
+.footer__menu{
+    background-color: #EAF2FD;
+    display: flex;
+    /*padding: 6.4rem 15.2rem;*/
+    padding-top:6.4rem ;
+    padding-bottom:3rem;
+    padding-left: 15.2rem;
+    padding-right: 15.2rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.footer__Logo-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;    
+}
+
+.footer__list{
+    padding: 0 6rem;
+}
+
+.footer__menu img{    
+    width: 17.6rem;
+    padding: 0 5rem;
+}
+
+.footer__menu li{    
+    margin-bottom: 3.5rem;
+    color: var(--colorGris);    
+}
+
+.footer__menu li :visited{    
+    margin-bottom: 3.5rem;
+    color: var(--colorGris);
+}
+
+.footer__menu li:hover{    
+    margin-bottom: 3.5rem;
+    color: var(--colorGris);
+    transform: scale(1.05);
+    transition: .25s;
+}
+
+.footer__menu form{
+    display: flex;
+    flex-direction: column;
+    width: 56rem;    
+    
+}
+
+.footer__menu form p{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.footer__menu form input{
+    font-family: 'Raleway', sans-serif;    
+    border: none;
+    margin-bottom: 2rem;
+    padding-bottom: 40px;
+    font-size: 1.6rem;
+    font-family: 400;
+}
+
+.footer__menu form textarea{
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    margin-bottom: 2rem;
+    height: 82px;
+    font-size:1.6rem ;
+    line-height: 20px;
+    font-family: 400;
+}
+
+.footer__menu form textarea::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.footer__menu form input::placeholder{ 
+    font-family: 'Raleway', sans-serif;  
+    font-size: 1.2rem;
+    font-weight: 400;
+    
+}
+
+.footer__menu button{
+    width: 30%;
+}
+
+.footer__desarrollador{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 3.2rem 60.5rem;
+}
+
+@media (max-width: 768px){
+    .footer__menu{
+        padding: 5.9rem 3.2rem;
+    }
+
+    .footer__desarrollador{  
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 500;       
+        padding: 3.2rem;
+    }
+
+    .footer__Logo-menu{
+        display: flex;
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+
+    .footer__list{
+        padding: 0;
+    }
+
+    .footer__menu img{    
+        width: 17.6rem;
+        padding: 0;
+    }
+
+    .footer__menu form{
+        display: flex;
+        flex-direction: column;
+        width: 43.4rem;    
+        
+    }
+
+    .footer__menu form textarea{
+        width: 43.4;
+        
+    }
+
+    .footer__menu button{
+        width: 40%;
+    }
+    
+}

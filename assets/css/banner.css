@@ -1,0 +1,35 @@
+/*banner*/
+.banner{
+    background-image: url(../img/banner-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 15.2rem;
+    padding-top: 15rem;
+}
+
+.banner h2{
+    color: var(--colorBlanco);
+    font-size: 5.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.banner p{
+    color: var(--colorBlanco);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.banner button{
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 768px){
+    .banner{
+    padding-left: 3.2rem;
+    padding-top: 16.1rem;   
+    
+}
+}

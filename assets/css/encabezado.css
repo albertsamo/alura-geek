@@ -1,0 +1,76 @@
+/*Encabezado*/
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 11.5rem;
+    margin: 0 10%;
+    
+}
+
+.encabezado__logo{
+    display: flex;
+    align-items: center;    
+}
+.encabezado__logo img{
+    height: 5rem;
+    width: auto;
+}
+
+.encabezado__buscador{
+    display: flex;
+    background-color:#F5F5F5;
+    margin-left: 3rem;
+    border-radius: 25px;
+    width: 39.3rem;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.encabezado__buscador i{
+    color: var(--colorGris);
+    font-size: 1.7rem;
+    margin-right: 1.5rem;
+}
+
+.encabezado__input{
+    background-color:#F5F5F5;
+    margin-left: 2rem;
+    height: 30px;
+    border: none;
+    width: 329px;
+    border-radius: 25px;  
+}
+
+.encabezado__input:focus{
+    outline: none;
+}
+
+
+.encabezado button{
+    width: 182px;    
+}
+
+@media (max-width: 768px){
+    .encabezado{
+        margin: 0 2rem;
+        height: 7.2rem;
+    }
+
+    .encabezado__logo img{
+        width: 10rem;
+        height: auto;
+    }
+
+    .encabezado__buscador{
+        display: flex;
+        background-color:#F5F5F5;
+        margin-left: 3rem;
+        border-radius: 25px;
+        width: 27.2rem;
+        height: 40px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
