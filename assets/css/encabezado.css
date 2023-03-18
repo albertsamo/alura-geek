@@ -1,13 +1,14 @@
 /*Encabezado*/
-.encabezado{
+.encabezado{    
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 11.5rem;
-    margin: 0 10%;
-    
+    margin: 0 10%;    
 }
-
+.oculto{
+    display:none
+}
 .encabezado__logo{
     display: flex;
     align-items: center;    
@@ -15,10 +16,6 @@
 .encabezado__logo img{
     height: 5rem;
     width: auto;
-}
-
-.encabezado--serch{
-    display: none;
 }
 
 .encabezado__buscador{
@@ -55,10 +52,6 @@
 .encabezado button{
     width: 182px;
     height: auto;   
-}
-
-.encabezado--serch{
-    display: none;
 }
 
 @media (max-width: 768px){
@@ -110,4 +103,9 @@
         font-weight: 400;
         width: 16.6rem;
         padding: 16px 4px;
+    }
+        .oculto{
+            display:flex
+        }
+
 }
