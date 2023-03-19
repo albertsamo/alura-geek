@@ -48,12 +48,7 @@
 
 @media (max-width: 375px){
     .sesion form{        
-        width: 27.5rem; 
+        width: 80%; 
         padding: 0 auto;   
-    }
-
-    .sesion__input{
-        width: 27.5rem;
-    }
-    
+    }    
 }
