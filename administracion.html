@@ -18,19 +18,22 @@
     <title>Alura Geek | Login</title>
 </head>
 <body>
-    <header class="encabezado">
-            <div class="encabezado__logo">
-                <img src="assets/img/Logo.svg" alt="Logo Alura geek">
-                <div class="encabezado__buscador">
-                    <input type="text" placeholder="¿Que deseas buscar" class="encabezado__input"><i class="fa-solid fa-magnifying-glass"></i>
-                </div>                
-            </div>          
-            <button class="encabezado__boton--menu">Menú Administrador</button>  
-            <i class="fa-sharp fa-solid fa-envelope" id="23"></i>
+    <header class="encabezado">    
+        <div class="encabezado__logo">
+            <img src="assets/img/Logo.svg" alt="Logo Alura geek">
+            <div class="encabezado__buscador">
+                <input type="text" placeholder="¿Que deseas buscar" class="encabezado__input"><i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <button class="encabezado__boton--menu">Menú Administrador</button>
+        <div class="oculto">
+        <i class="encabezado--serch fa-solid fa-magnifying-glass "></i>
+        </div>
     </header>
+    
     <main>
         <section class="agregar-producto">
-            <form action="">
+            <form>
                 <h2>Agregar nuevo producto</h2>
                 <input class="agregar-producto__input" type="text" placeholder="URL de imagen">
                 <input class="agregar-producto__input" type="text" placeholder="Categoría">

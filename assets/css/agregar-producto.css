@@ -1,4 +1,4 @@
-.agregar-producto{
+.agregar-producto{    
     font-family: 'Raleway', sans-serif;
     background-color: #E5E5E5;
     text-align:start;    
@@ -17,7 +17,8 @@
 .agregar-producto form{
     display: flex;
     flex-direction: column;
-    width: 55.9rem;    
+    width: 50%;
+
 }
 
 .agregar-producto__input{    
@@ -30,6 +31,7 @@
     padding-right: 1.20rem;
     margin-bottom: 1.5rem;
     border: none;
+    
 }
 
 .agregar-producto textarea{
@@ -41,7 +43,7 @@
 }
 
 .agregar-producto button{
-    width: 55.9rem;   
+    width: 100%;   
 }
 
 .agregar-producto a:hover{    
@@ -50,20 +52,13 @@
 
 
 @media (max-width: 768px){
-
-    .agregar-producto button{
-        width: 10.9rem;   
+    .agregar-producto form{      
+        width: 80%;    
     }
 }
 
 @media (max-width: 375px){
-    .agregar-producto form{        
-        width: 27.5rem; 
-        padding: 0 auto;   
+    .agregar-producto form{      
+        width: 80%;    
     }
-
-    .agregar-producto__input{
-        width: 27.5rem;
-    }
-    
 }
