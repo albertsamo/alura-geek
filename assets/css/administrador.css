@@ -31,8 +31,7 @@
 }
 
 .allProducts__tarjeta{   
-    width: 15%; 
-      
+    width: 15%;       
 }
 
 .allProducts__tarjeta img{
@@ -55,4 +54,20 @@
     font-weight: 500;
     padding-top: 1rem;
     padding-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+    .allProducts__titulo{
+        width: 94%;
+
+    }
+
+    .allProducts__contenedor{
+        width: 94%;
+    }
+
+    .allProducts__tarjeta{   
+        width: 23%;       
+    }
+
 }
