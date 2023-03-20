@@ -71,3 +71,24 @@
     }
 
 }
+@media(max-width: 375px){
+    .allProducts__titulo{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        
+    }
+
+    .allProducts__contenedor{
+        width: 90%;
+    }
+    .allProducts__titulo h2{
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+
+    .allProducts__tarjeta{         
+        width: 45%;       
+    }
+}
